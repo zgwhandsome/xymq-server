@@ -6,7 +6,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年08月04日 17:11
  */
 public class XyTextWebSocketFrameHandler extends SimpleChannelInboundHandler<TextWebSocketFrame> {

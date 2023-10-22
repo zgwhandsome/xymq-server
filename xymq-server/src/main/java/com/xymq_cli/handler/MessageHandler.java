@@ -11,7 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月09日 17:57
  */
 public class MessageHandler extends SimpleChannelInboundHandler<Protocol> {
@@ -34,7 +34,7 @@ public class MessageHandler extends SimpleChannelInboundHandler<Protocol> {
      * @param ctx channelhandler上下文
      * @param cause
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */

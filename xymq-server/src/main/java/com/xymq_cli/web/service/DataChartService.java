@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * 数据图表业务层
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年08月03日 21:40
  */
 public interface DataChartService {
@@ -15,7 +15,7 @@ public interface DataChartService {
     /**
      * 获取队列详细数据
      * @return java.util.Map<java.lang.String,java.lang.Object>
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/3
      * @email 1677685900@qq.com
      */
@@ -24,7 +24,7 @@ public interface DataChartService {
     /**
      * 更新数据
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/4
      * @email 1677685900@qq.com
      */

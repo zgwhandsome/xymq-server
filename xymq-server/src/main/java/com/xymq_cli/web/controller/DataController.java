@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年08月01日 22:15
  */
 @RestController
@@ -21,7 +21,7 @@ public class DataController {
     /**
      * 可视化图表-队列数据概览接口
      * @return java.lang.String
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/14
      * @email 1677685900@qq.com
      */
@@ -33,7 +33,7 @@ public class DataController {
     /**
      * 获取队列详情列表
      * @return java.lang.String
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/14
      * @email 1677685900@qq.com
      */

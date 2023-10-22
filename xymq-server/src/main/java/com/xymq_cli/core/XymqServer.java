@@ -30,7 +30,7 @@ import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.atomic.LongAdder;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月09日 16:26
  */
 
@@ -116,7 +116,7 @@ public class XymqServer {
      * 服务端初始化工作
      *
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/9
      * @email 1677685900@qq.com
      */
@@ -154,7 +154,7 @@ public class XymqServer {
     /**
      * 开始推送消息
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/24
      * @email 1677685900@qq.com
      */
@@ -170,7 +170,7 @@ public class XymqServer {
      * 发送消息到消费者
      *
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */
@@ -222,7 +222,7 @@ public class XymqServer {
      * 发送延时消息到消费者
      *
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/16
      * @email 1677685900@qq.com
      */
@@ -263,7 +263,7 @@ public class XymqServer {
      * 发布消息到订阅了的客户端
      *
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/17
      * @email 1677685900@qq.com
      */
@@ -300,7 +300,7 @@ public class XymqServer {
     /**
      * 发送延时消息到订阅者
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/24
      * @email 1677685900@qq.com
      */
@@ -331,7 +331,7 @@ public class XymqServer {
     /**
      * 订阅者上线时，如果是该编号有离线消息，就先推送离线消息
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/24
      * @email 1677685900@qq.com
      */
@@ -378,7 +378,7 @@ public class XymqServer {
      * @param message
      * @param subscribers
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/24
      * @email 1677685900@qq.com
      */
@@ -402,7 +402,7 @@ public class XymqServer {
      * @param clientId 客户端编号
      * @param subscriber 订阅者
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/24
      * @email 1677685900@qq.com
      */
@@ -427,7 +427,7 @@ public class XymqServer {
      *
      * @param channels 通道列表
      * @return io.netty.channel.Channel
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */
@@ -443,7 +443,7 @@ public class XymqServer {
      * 假如时延时队列的消息就要重新判断消息，如果时已经过期的消息就不读到内存中了，否则就重新计算过期事件放入内存
      *
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/12
      * @email 1677685900@qq.com
      */
@@ -488,7 +488,7 @@ public class XymqServer {
      * 清理离线客户端
      *
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/19
      * @email 1677685900@qq.com
      */
@@ -510,7 +510,7 @@ public class XymqServer {
     /**
      * 获取未读的队列消息数量
      * @return long 队列中未读消息的数量
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/1
      * @email 1677685900@qq.com
      */
@@ -521,7 +521,7 @@ public class XymqServer {
     /**
      * 获取未读的主题消息数量
      * @return java.lang.Long
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/6
      * @email 1677685900@qq.com
      */
@@ -532,7 +532,7 @@ public class XymqServer {
     /**
      * 获取主题消息中推送失败的消息数量
      * @return java.lang.Long
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/6
      * @email 1677685900@qq.com
      */
@@ -549,7 +549,7 @@ public class XymqServer {
      * 遍历容器拿到各容器消息数量
      * @param topicContainer
      * @return java.lang.Long
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/6
      * @email 1677685900@qq.com
      */
@@ -565,7 +565,7 @@ public class XymqServer {
     /**
      * 返回队列消息容器的堆积情况
      * @return java.util.Map<java.lang.String,java.lang.Long>
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/8
      * @email 1677685900@qq.com
      */
@@ -576,7 +576,7 @@ public class XymqServer {
     /**
      * 返回主题消息容器的堆积情况
      * @return java.util.Map<java.lang.String,java.lang.Long>
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/8
      * @email 1677685900@qq.com
      */
@@ -587,7 +587,7 @@ public class XymqServer {
     /**
      * 获取指定容器中消息的堆积情况
      * @return java.util.Map<java.lang.String,java.lang.Long>
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/5
      * @email 1677685900@qq.com
      */
@@ -625,7 +625,7 @@ public class XymqServer {
     /**
      * 推送成功的主题消息数
      * @return java.lang.Long
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/6
      * @email 1677685900@qq.com
      */
@@ -636,7 +636,7 @@ public class XymqServer {
     /**
      * 获取队列详情
      * @return java.util.List<com.xymq_cli.web.domain.QueueVO>
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/13
      * @email 1677685900@qq.com
      */

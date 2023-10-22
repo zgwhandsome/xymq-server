@@ -3,7 +3,7 @@ package com.xymq_cli.listener;
 import java.util.EventObject;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月11日 15:19
  */
 public class MessageData extends EventObject {

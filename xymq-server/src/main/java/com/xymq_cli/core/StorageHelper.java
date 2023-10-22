@@ -7,7 +7,7 @@ import java.util.concurrent.DelayQueue;
 import java.util.concurrent.LinkedBlockingDeque;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月10日 14:43
  */
 public interface StorageHelper {
@@ -16,7 +16,7 @@ public interface StorageHelper {
      * @param queueContainer 队列消息容器
      * @param message 消息对象
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */
@@ -27,7 +27,7 @@ public interface StorageHelper {
      * @param topicContainer 主题消息容器
      * @param message 消息对象
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */
@@ -38,7 +38,7 @@ public interface StorageHelper {
      * @param delayQueueMap 延时队列容器
      * @param message 消息对象
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */
@@ -49,7 +49,7 @@ public interface StorageHelper {
      * @param delayTopicMap 主题消息容器
      * @param message 消息对象
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */

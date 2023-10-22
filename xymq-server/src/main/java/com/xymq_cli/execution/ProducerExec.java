@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 生产者消息处理器
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月10日 12:39
  */
 @Component
@@ -30,7 +30,7 @@ public class ProducerExec implements Execution{
     /**
      * 处理来自生产者推送的消息，根据消息对象的不同情况将消息存储到不同的消息容器中,每当有对应的队列或主题有新消息推入就次数加一
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */
@@ -51,7 +51,7 @@ public class ProducerExec implements Execution{
      * 处理队列消息
      * @param message
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */
@@ -67,7 +67,7 @@ public class ProducerExec implements Execution{
      * 处理主题消息
      * @param message 消息对象
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */
@@ -94,7 +94,7 @@ public class ProducerExec implements Execution{
      * 返回当前策略支持的 消息 类型
      *
      * @return int 消息类型
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */

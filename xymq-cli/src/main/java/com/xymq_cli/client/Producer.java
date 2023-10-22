@@ -20,7 +20,7 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月11日 15:09
  */
 public class Producer {
@@ -55,7 +55,7 @@ public class Producer {
      * 初始化生产者
      *
      * @return
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/13
      * @email 1677685900@qq.com
      */
@@ -92,7 +92,7 @@ public class Producer {
      * @param delay           延迟数
      * @param timeUnit        延迟单位
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/16
      * @email 1677685900@qq.com
      */
@@ -106,7 +106,7 @@ public class Producer {
      * @param content    消息内容
      * @param destinationName i
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/13
      * @email 1677685900@qq.com
      */
@@ -123,7 +123,7 @@ public class Producer {
      * @param delay           延迟数
      * @param timeUnit        延迟单位
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/13
      * @email 1677685900@qq.com
      */
@@ -138,7 +138,7 @@ public class Producer {
      * @param content         消息内容
      * @param destinationName 消息目的地
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/13
      * @email 1677685900@qq.com
      */
@@ -151,7 +151,7 @@ public class Producer {
      * 等待socket缓冲区的数据都被消费才关闭
      *
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/13
      * @email 1677685900@qq.com
      */

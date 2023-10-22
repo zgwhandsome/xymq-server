@@ -2,7 +2,7 @@ package com.xymq_common.protocol;
 
 /**
  * 解决消息内容粘包和拆包问题，将要传输的内容大小写入bytebuf的header中
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月07日 16:51
  */
 public class Protocol {

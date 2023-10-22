@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月25日 22:47
  */
 @Configuration

@@ -1,7 +1,7 @@
 package com.xymq_common.message;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月09日 17:11
  */
 import java.util.concurrent.Delayed;
@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 封装消息的实体类
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月09日 17:11
  */
 public class Message implements Delayed {

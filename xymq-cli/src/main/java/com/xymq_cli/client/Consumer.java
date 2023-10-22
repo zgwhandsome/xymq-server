@@ -14,7 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月11日 15:08
  */
 public class Consumer {
@@ -47,7 +47,7 @@ public class Consumer {
     /**
      * @param destination 队列/主题名
      * @return
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/11
      * @email 1677685900@qq.com
      */
@@ -86,7 +86,7 @@ public class Consumer {
       * 设置自动签名
       * @param autoAcknowledge 设置自动签名
       * @return void
-      * @author 黎勇炫
+      * @author 张国伟
       * @create 2022/7/12
       * @email 1677685900@qq.com
       */
@@ -98,7 +98,7 @@ public class Consumer {
       * 设置监听器
       * @param listener 监听器
       * @return com.xymq_cli.client.Consumer
-      * @author 黎勇炫
+      * @author 张国伟
       * @create 2022/7/12
       * @email 1677685900@qq.com
       */
@@ -110,7 +110,7 @@ public class Consumer {
      /**
       * 关闭通道
       * @return void
-      * @author 黎勇炫
+      * @author 张国伟
       * @create 2022/7/12
       * @email 1677685900@qq.com
       */
@@ -124,7 +124,7 @@ public class Consumer {
        */
     public static void main(String[] args) {
         // 指定‘queue’队列
-        Consumer consumer = new Consumer("queue");
+        Consumer consumer = new Consumer("queue3");
         // 构建监听器
         consumer.createListener(new MessageListener() {
             @Override
@@ -135,3 +135,5 @@ public class Consumer {
         }).run();
     }
 }
+
+

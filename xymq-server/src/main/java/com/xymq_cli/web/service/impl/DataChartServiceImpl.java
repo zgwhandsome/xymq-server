@@ -19,7 +19,7 @@ import java.util.*;
 import java.util.concurrent.atomic.LongAdder;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年08月03日 21:42
  */
 @Service
@@ -94,7 +94,7 @@ public class DataChartServiceImpl implements DataChartService {
     /**
      * 初始化数据
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/4
      * @email 1677685900@qq.com
      */
@@ -107,7 +107,7 @@ public class DataChartServiceImpl implements DataChartService {
     /**
      * 删除索引位置0的数据，将最新的数据填充到末尾
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/4
      * @email 1677685900@qq.com
      */
@@ -120,7 +120,7 @@ public class DataChartServiceImpl implements DataChartService {
     /**
      * 往数据列表中更新数据
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/4
      * @email 1677685900@qq.com
      */
@@ -142,7 +142,7 @@ public class DataChartServiceImpl implements DataChartService {
     /**
      * 删除索引位置0的数据
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/4
      * @email 1677685900@qq.com
      */
@@ -156,7 +156,7 @@ public class DataChartServiceImpl implements DataChartService {
     /**
      * 获取队列详细数据
      * @return java.util.Map<java.lang.String, java.lang.Object>
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/3
      * @email 1677685900@qq.com
      */
@@ -178,7 +178,7 @@ public class DataChartServiceImpl implements DataChartService {
     /**
      * 每隔5s获取一次
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/8/4
      * @email 1677685900@qq.com
      */

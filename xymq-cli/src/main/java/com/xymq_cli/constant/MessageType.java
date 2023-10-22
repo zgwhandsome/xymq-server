@@ -1,7 +1,7 @@
 package com.xymq_cli.constant;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月11日 15:57
  */
 public enum MessageType {

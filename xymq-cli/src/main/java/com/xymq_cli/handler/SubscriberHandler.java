@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 订阅者的消息处理器
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月17日 16:59
  */
 public class SubscriberHandler extends SimpleChannelInboundHandler<Protocol> {
@@ -65,7 +65,7 @@ public class SubscriberHandler extends SimpleChannelInboundHandler<Protocol> {
     /**
      * 构建一个消息对象，向服务端注册自己
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/17
      * @email 1677685900@qq.com
      */

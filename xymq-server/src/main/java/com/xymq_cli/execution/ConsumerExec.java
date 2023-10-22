@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月10日 12:41
  */
 @Component
@@ -27,7 +27,7 @@ public class ConsumerExec implements Execution{
      * 执行操作(消费、推送和签收)
      * @param message
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */
@@ -67,7 +67,7 @@ public class ConsumerExec implements Execution{
      * @param channel 通道
      * @param subscriberContainer 订阅者容器
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */
@@ -87,7 +87,7 @@ public class ConsumerExec implements Execution{
      * @param message 消息对象
      * @param channel 客户端的通道
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */
@@ -107,7 +107,7 @@ public class ConsumerExec implements Execution{
      * 返回当前策略支持的 消息 类型
      *
      * @return int 消息类型
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */

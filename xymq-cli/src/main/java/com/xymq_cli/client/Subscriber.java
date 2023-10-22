@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 主题消息订阅者
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月17日 14:46
  */
 public class Subscriber {
@@ -77,7 +77,7 @@ public class Subscriber {
     /**
      * 关闭通道
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/12
      * @email 1677685900@qq.com
      */
@@ -89,7 +89,7 @@ public class Subscriber {
      * 设置监听器
      * @param listener 监听器
      * @return com.xymq_cli.client.Consumer
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/12
      * @email 1677685900@qq.com
      */

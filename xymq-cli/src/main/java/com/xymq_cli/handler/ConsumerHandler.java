@@ -18,7 +18,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月11日 15:45
  */
 public class ConsumerHandler extends SimpleChannelInboundHandler<Protocol> {
@@ -50,7 +50,7 @@ public class ConsumerHandler extends SimpleChannelInboundHandler<Protocol> {
      * @param ctx
      * @param protocol
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/11
      * @email 1677685900@qq.com
      */
@@ -72,7 +72,7 @@ public class ConsumerHandler extends SimpleChannelInboundHandler<Protocol> {
      * @param messageId
      * @param destination
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/11
      * @email 1677685900@qq.com
      */
@@ -87,7 +87,7 @@ public class ConsumerHandler extends SimpleChannelInboundHandler<Protocol> {
      * 客户端一启动成功就向服务端注册这个通道，告诉服务端这是消费者
      * @param ctx
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/11
      * @email 1677685900@qq.com
      */
@@ -101,7 +101,7 @@ public class ConsumerHandler extends SimpleChannelInboundHandler<Protocol> {
      * 向服务端注册消费者
      * @param channel
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/11
      * @email 1677685900@qq.com
      */

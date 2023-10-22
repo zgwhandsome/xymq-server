@@ -3,7 +3,7 @@ package com.xymq_cli.web.domain;
 import lombok.Data;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年08月09日 18:53
  */
 @Data

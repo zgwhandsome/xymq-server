@@ -5,7 +5,7 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月14日 20:26
  */
 public class ProducerHandler extends SimpleChannelInboundHandler<Protocol> {

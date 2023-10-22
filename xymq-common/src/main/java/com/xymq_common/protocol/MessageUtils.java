@@ -6,7 +6,7 @@ import com.xymq_common.message.Message;
 import java.nio.charset.StandardCharsets;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月09日 17:55
  */
 public class MessageUtils {
@@ -15,7 +15,7 @@ public class MessageUtils {
      * 将消息内容转换成字节数组
      * @param message 消息对象
      * @return byte[]
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/9
      * @email 1677685900@qq.com
      */
@@ -27,7 +27,7 @@ public class MessageUtils {
      * 将字节数组转换成message对象
      * @param bytes
      * @return com.xymq.message.Message
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/9
      * @email 1677685900@qq.com
      */

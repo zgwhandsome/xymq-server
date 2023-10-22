@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * 消息队列服务端配置类
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月10日 14:21
  */
 @Configuration
@@ -21,7 +21,7 @@ public class MQServerConfig {
     /**
      * id生成
      * @return com.xymq.util.SnowflakeIdUtils
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/10
      * @email 1677685900@qq.com
      */

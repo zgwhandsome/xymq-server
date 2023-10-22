@@ -8,7 +8,7 @@ import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
 
 /**
- * @author 黎勇炫
+ * @author 张国伟
  * @date 2022年07月17日 16:56
  */
 public class SubscriberInitializer extends ChannelInitializer<SocketChannel> {
@@ -26,7 +26,7 @@ public class SubscriberInitializer extends ChannelInitializer<SocketChannel> {
      * 该方法主要是为客户端channel设置编解码器以及消息处理器
      * @param sc netty通道
      * @return void
-     * @author 黎勇炫
+     * @author 张国伟
      * @create 2022/7/11
      * @email 1677685900@qq.com
      */
